@@ -1,0 +1,105 @@
+---
+output:  
+  revealjs::revealjs_presentation:
+    theme: moon
+    css: |
+      .controls {
+        top: 95%;
+        bottom: auto;
+        transform: translateY(-95%);
+      }
+    transition: slide
+    reveal_options:
+      slideNumber: true
+---
+
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br>
+
+<div class="center">
+  <span style="font-size: 6em">PyTorch</span>
+    </div>
+      
+<br>
+
+<div class="center">
+<span style="font-size: 1em">
+- Gabriel Véras <br>
+- Rafael Lira <br>
+- Mateus Ribeiro <br>
+- João Pedro <br>
+</span>
+</div>
+
+---
+
+Introdução (5 minutos) 
+
+Apresentação dos palestrantes
+Contextualização sobre o uso de redes neurais em estatística
+Importância da compreensão de redes neurais para análise de dados
+
+---
+
+Parte 1: Problema e Ideia Central (15 minutos)
+
+Qual problema a técnica busca resolver?
+Explicação da ideia central por trás do uso de redes neurais
+Como as redes neurais funcionam como um modelo computacional inspirado no cérebro humano
+
+---
+
+Parte 2: Torch (15 minutos)
+
+Apresentação do Torch como um framework para redes neurais
+Características e vantagens do Torch
+Demonstração prática de uma implementação usando Torch
+
+---
+
+Parte 3: PyTorch (20 minutos)
+
+Introdução ao PyTorch e sua popularidade
+Por que PyTorch se tornou uma escolha popular para deep learning
+Funcionalidades do PyTorch e como elas facilitam o desenvolvimento de redes neurais
+Demonstração prática de uma implementação usando PyTorch
+
+---
+
+Parte 4: Métodos Alternativos (10 minutos)
+
+Breve visão geral de métodos alternativos para redes neurais
+Comparação entre diferentes frameworks e suas características distintas
+Discussão sobre as situações em que outros métodos podem ser mais adequados
+
+---
+
+Parte 5: Fragilidades e Limitações (10 minutos)
+
+Exposição das fragilidades e limitações do uso de redes neurais
+Discussão sobre casos em que as redes neurais podem falhar ou apresentar resultados indesejados
+Abordagem de possíveis soluções ou ajustes para mitigar essas fragilidades
+
+---
+
+Parte 6: Ferramentas e Recursos (10 minutos)
+
+Apresentação de ferramentas disponíveis para utilizar as soluções com Torch e PyTorch
+Exemplos de bibliotecas e pacotes úteis para análise, visualização e pré-processamento de dados
+Recursos online, documentação e comunidades de suporte para auxiliar no aprendizado e uso eficiente das ferramentas
+
+---
+
+Conclusão (5 minutos)
+
+Recapitulação dos principais pontos abordados
+Importância e aplicabilidade das redes neurais na estatística
+Incentivo à exploração e estudo contínuo das redes neurais e suas implementações
+Encorajamento para a utilização de Torch e PyTorch como ferramentas poderosas para solucionar problemas estatísticos
+
+---
