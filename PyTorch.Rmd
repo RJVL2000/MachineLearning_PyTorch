@@ -38,7 +38,7 @@ output:
 
 ---
 
-Introdução (5 minutos)
+Introdução (5 minutos) 
 
 Apresentação dos palestrantes
 Contextualização sobre o uso de redes neurais em estatística
