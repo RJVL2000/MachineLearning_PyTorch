@@ -1,7 +1,7 @@
 ---
 output:  
   revealjs::revealjs_presentation:
-    theme: moon
+    theme: league
     css: |
       .controls {
         top: 95%;
@@ -11,6 +11,7 @@ output:
     transition: slide
     reveal_options:
       slideNumber: true
+
 ---
 
 <style>
@@ -60,6 +61,52 @@ Apresentação do Torch como um framework para redes neurais
 Características e vantagens do Torch
 Demonstração prática de uma implementação usando Torch
 
+--- 
+
+<section data-transition="none">
+  <h2></h2>
+  <p>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br>
+
+<div class="center">
+  <span style="font-size: 3em">Torch: FrameWork para Redes Neurais</span>
+    </div></h2>
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Características do Torch</h2>
+  <p>
+- Núcleo em LuaJIT
+- Suporte a GPU
+- Biblioteca de módulos pré-construídos
+- Fluxo de trabalho intuitivo
+- Compatibilidade com outras bibliotecas
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Vantagens do Torch</h2>
+  <p>
+- Alta performance com o uso de LuaJIT e suporte a GPU
+- Grande variedade de módulos pré-construídos disponíveis
+- Facilita a implementação de modelos complexos
+- Integração com outras bibliotecas populares
+- Fluxo de trabalho eficiente para pesquisa e experimentação
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Demonstração Prática com Torch</h2>
+  <p></p>
+</section>
+
 ---
 
 Parte 3: PyTorch (20 minutos)
@@ -71,11 +118,125 @@ Demonstração prática de uma implementação usando PyTorch
 
 ---
 
+<section data-transition="none">
+  <h2></h2>
+  <p>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br><br>
+
+<div class="center">
+  <span style="font-size: 3em">PyTorch</span>
+    </div></h2>
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Popularidade do PyTorch</h2>
+  <p>
+- PyTorch ganhou popularidade significativa como um framework de deep learning.
+- Comunidade ativa e crescente de desenvolvedores e pesquisadores.
+- Suporte de grandes empresas e instituições de pesquisa.
+- Facilidade de uso e curva de aprendizado suave.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Por que o PyTorch se tornou popular?</h2>
+  <p>
+- Flexibilidade e facilidade de uso.
+- Suporte a fluxos de trabalho de pesquisa e produção.
+- Possui uma API intuitiva e Pythonic.
+- Gráficos computacionais dinâmicos para construção de modelos flexíveis.
+- Compatibilidade com o ecossistema Python e bibliotecas populares.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Funcionalidades do PyTorch</h2>
+  <p>
+- Construção de modelos de forma intuitiva usando a API de alto nível.
+- Autograd: cálculo automático de gradientes para treinamento eficiente.
+- Suporte a GPU para aceleração de cálculos intensivos.
+- Vasta coleção de funções e módulos pré-construídos.
+- Integração com bibliotecas como NumPy para manipulação eficiente de dados.
+  
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Demonstração Prática com PyTorch</h2>
+  <p></p>
+</section>
+
+---
+
 Parte 4: Métodos Alternativos (10 minutos)
 
 Breve visão geral de métodos alternativos para redes neurais
 Comparação entre diferentes frameworks e suas características distintas
 Discussão sobre as situações em que outros métodos podem ser mais adequados
+
+---
+
+<section data-transition="none">
+  <h2></h2>
+  <p>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br><br>
+
+<div class="center">
+  <span style="font-size: 3em">Métodos Alternativos</span>
+    </div></h2>
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Breve Visão Geral de Métodos Alternativos para Redes Neurais</h2>
+  <p>
+- Além do PyTorch, existem outros frameworks populares para desenvolvimento de redes neurais, como TensorFlow, Keras e Caffe.
+- Também existem abordagens diferentes, como bibliotecas especializadas, como Theano e MXNet, ou estruturas de desenvolvimento de alto nível, como scikit-learn e H2O.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Comparação entre Diferentes Frameworks</h2>
+  <p>
+- Cada framework possui suas próprias características distintas.
+- TensorFlow: foco em produção, ampla adoção, suporte a dispositivos e linguagens variadas.
+- Keras: camada de abstração em cima do TensorFlow, facilitando o desenvolvimento rápido de modelos.
+- Caffe: otimizado para modelos de visão computacional e aplicativos de aprendizado profundo.
+- Theano: flexibilidade e eficiência para experimentação e pesquisa.
+- MXNet: escalabilidade e eficiência, especialmente em cenários distribuídos.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Situações em que Outros Métodos são Mais Adequados</h2>
+  <p>
+- A escolha do framework depende do contexto e dos requisitos do projeto.
+- TensorFlow e Keras são populares para produção e implantação em escala.
+- Theano e MXNet são mais adequados para pesquisa e experimentação.
+- Caffe é preferível para aplicações de visão computacional.
+- Frameworks como scikit-learn e H2O são excelentes para tarefas de aprendizado de máquina tradicionais.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Nota:</h2>
+  <p>
+É importante avaliar as necessidades específicas do projeto e as características de cada método para determinar qual é o mais adequado.
+</p>
+</section>
 
 ---
 
@@ -87,11 +248,109 @@ Abordagem de possíveis soluções ou ajustes para mitigar essas fragilidades
 
 ---
 
+<section data-transition="none">
+  <h2></h2>
+  <p>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br><br>
+
+<div class="center">
+  <span style="font-size: 3em">Fragilidades e Limitações</span>
+    </div></h2>
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Exposição das fragilidades e limitações do uso de redes neurais</h2>
+  <p>
+- Dependência de grandes volumes de dados de treinamento.
+- Tendência a overfitting em conjuntos de dados pequenos.
+- Dificuldade em lidar com dados desbalanceados ou ruidosos.
+- Requerem alto poder computacional e recursos de memória.
+- Interpretabilidade limitada dos resultados.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Casos em que as Redes Neurais podem Falhar</h2>
+  <p>
+- Quando os dados de treinamento não representam adequadamente a população-alvo.
+- Em cenários com dados de entrada fora da distribuição observada durante o treinamento.
+- Na presença de outliers ou dados anômalos significativos.
+- Ao lidar com conceitos complexos e não-lineares difíceis de serem aprendidos.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Soluções e Ajustes para Mitigar Fragilidades</h2>
+  <p>
+- Aumento de dados: técnicas para aumentar a quantidade de dados de treinamento disponíveis.
+- Regularização: uso de técnicas como dropout e regularização L1/L2 para combater overfitting.
+- Pré-processamento de dados: lidar com dados desbalanceados, ruidosos ou outliers.
+- Avaliação e interpretação: adotar métricas e técnicas para interpretar e validar os resultados da rede neural.
+- Exploração de outras abordagens: considerar outros modelos ou técnicas de aprendizado de máquina, dependendo do contexto.
+</p>
+</section>
+
+---
+
 Parte 6: Ferramentas e Recursos (10 minutos)
 
 Apresentação de ferramentas disponíveis para utilizar as soluções com Torch e PyTorch
 Exemplos de bibliotecas e pacotes úteis para análise, visualização e pré-processamento de dados
 Recursos online, documentação e comunidades de suporte para auxiliar no aprendizado e uso eficiente das ferramentas
+
+---
+
+<section data-transition="none">
+  <h2></h2>
+  <p>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br><br>
+
+<div class="center">
+  <span style="font-size: 3em">Ferramentas e Recursos</span>
+    </div></h2>
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Bibliotecas e Pacotes para Análise, Visualização e Pré-processamento de Dados</h2>
+  <p>
+- NumPy: Biblioteca fundamental para manipulação eficiente de arrays e operações numéricas.
+- Pandas: Facilita a análise e manipulação de dados tabulares, incluindo carregamento de dados e limpeza.
+- Matplotlib e Seaborn: Ferramentas para visualização de dados, gráficos e criação de plots.
+- Scikit-learn: Biblioteca amplamente usada para aprendizado de máquina, incluindo pré-processamento de dados, seleção de modelos e avaliação.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Recursos Online, Documentação e Comunidades de Suporte</h2>
+  <p>
+- Documentação oficial: A documentação do Torch e PyTorch é abrangente e fornece informações detalhadas sobre a utilização dessas ferramentas.
+- Tutoriais e Exemplos: Muitos tutoriais e exemplos estão disponíveis online, fornecendo insights e orientações práticas para ajudar no desenvolvimento de soluções.
+- Fóruns e Comunidades: Participar de fóruns e comunidades, como o Stack Overflow ou fóruns específicos de PyTorch, permite obter suporte, trocar conhecimentos e fazer perguntas.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Plataformas e Ambientes de Desenvolvimento</h2>
+  <p>
+- Google Colab: Ambiente de notebook colaborativo baseado em Jupyter que permite executar código Python, incluindo suporte para GPUs.
+- Anaconda: Plataforma para gerenciamento de ambientes e pacotes Python, que facilita a instalação e configuração das ferramentas.
+- Microsoft Azure, AWS, Google Cloud: Plataformas de nuvem que oferecem recursos de computação escaláveis para treinamento de modelos em larga escala.
+</p>
+</section>
 
 ---
 
@@ -101,5 +360,70 @@ Recapitulação dos principais pontos abordados
 Importância e aplicabilidade das redes neurais na estatística
 Incentivo à exploração e estudo contínuo das redes neurais e suas implementações
 Encorajamento para a utilização de Torch e PyTorch como ferramentas poderosas para solucionar problemas estatísticos
+
+---
+
+<section data-transition="none">
+  <h2></h2>
+  <p>
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br><br>
+
+<div class="center">
+  <span style="font-size: 3em">Conclusão</span>
+    </div></h2>
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Recapitulação dos Principais Pontos Abordados</h2>
+  <p>
+- Redes neurais desempenham um papel fundamental na análise e modelagem de dados estatísticos.
+- Permitem a extração de padrões complexos e a realização de previsões precisas em uma ampla gama de domínios.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Incentivo à Exploração e Estudo Contínuo das Redes Neurais e Suas Implementações</h2>
+  <p>
+- É essencial buscar conhecimento e aprofundamento constante nas redes neurais e nas diversas técnicas disponíveis.
+- Acompanhar as últimas pesquisas e avanços para estar atualizado e aproveitar todo o potencial dessas abordagens.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Utilização de Torch e PyTorch como Ferramentas Poderosas para Solucionar Problemas Estatísticos</h2>
+  <p>
+- Torch e PyTorch são frameworks poderosos e flexíveis para desenvolvimento de redes neurais.
+- Possuem uma ampla gama de recursos, bibliotecas e suporte ativo da comunidade, facilitando a implementação de soluções estatísticas.
+</p>
+</section>
+
+<section data-transition="none">
+  <h2>Encorajamento para a Utilização de Torch e PyTorch</h2>
+  <p>
+- Conhecer e utilizar Torch e PyTorch pode impulsionar a resolução de problemas estatísticos de forma eficiente e precisa.
+- Aproveitar as funcionalidades, recursos e comunidades disponíveis para maximizar os benefícios dessas ferramentas.
+</p>
+</section>
+
+---
+
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+
+<br><br><br>
+
+<div class="center">
+  <span style="font-size: 6em">Obrigado!</span>
+    </div>
 
 ---
