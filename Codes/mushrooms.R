@@ -1,5 +1,10 @@
 pacman::p_load(torch, purrr, readr, dplyr, ggplot2, ggrepel)
 
+# download.file(
+#   "https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data",
+#   destfile = "agaricus-lepiota.data"
+# )
+
 mushroom_data <- read_csv(
   "agaricus-lepiota.data",
   col_names = c(
@@ -32,7 +37,7 @@ mushroom_data <- read_csv(
   # can as well remove because there's just 1 unique value
   select(-`veil-type`)
 
-
+table(mushroom_data$poisonous)
 
 mushroom_dataset <- dataset(
   name = "mushroom_dataset",
@@ -84,12 +89,13 @@ set.seed(42)
 train_indices <- sample(1:nrow(mushroom_data), size = floor(0.8 * nrow(mushroom_data)))
 valid_indices <- setdiff(1:nrow(mushroom_data), train_indices)
 
+.8*nrow(mushroom_data)
+
 train_ds <- mushroom_dataset(train_indices)
 train_dl <- train_ds %>% dataloader(batch_size = 256, shuffle = TRUE)
 
 valid_ds <- mushroom_dataset(valid_indices)
 valid_dl <- valid_ds %>% dataloader(batch_size = 256, shuffle = FALSE)
-
 
 embedding_module <- nn_module(
   initialize = function(cardinalities) {
@@ -183,7 +189,8 @@ for (epoch in 1:20) {
 
 model$eval()
 
-test_dl <- valid_ds %>% dataloader(batch_size = valid_ds$.length(), shuffle = FALSE)
+test_dl <- valid_ds %>% 
+  dataloader(batch_size = valid_ds$.length(), shuffle = FALSE)
 iter <- test_dl$.iter()
 b <- iter$.next()
 
